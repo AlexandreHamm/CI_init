@@ -7,7 +7,7 @@ jobs:
   test-client:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out code
+      - name: Check out code 2
         uses: actions/checkout@v2
 
       - name: Goto client and run tests
